@@ -6,30 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE92EBEB2D5E9C9B00D6ED10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE92EBE22D5E9C9B00D6ED10 /* Assets.xcassets */; };
+		BE92EBED2D5E9C9B00D6ED10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE92EBE52D5E9C9B00D6ED10 /* LaunchScreen.storyboard */; };
+		BE92EBEE2D5E9C9B00D6ED10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE92EBE72D5E9C9B00D6ED10 /* Main.storyboard */; };
+		BE92EBEF2D5E9C9B00D6ED10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92EBE12D5E9C9B00D6ED10 /* AppDelegate.swift */; };
+		BE92EBF02D5E9C9B00D6ED10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92EBE82D5E9C9B00D6ED10 /* SceneDelegate.swift */; };
+		BE92EBF12D5E9C9B00D6ED10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92EBE92D5E9C9B00D6ED10 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE92EBC92D5E9C9500D6ED10 /* VideoToAudioConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoToAudioConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE92EBE12D5E9C9B00D6ED10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE92EBE22D5E9C9B00D6ED10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE92EBE32D5E9C9B00D6ED10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE92EBE42D5E9C9B00D6ED10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE92EBE62D5E9C9B00D6ED10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE92EBE82D5E9C9B00D6ED10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE92EBE92D5E9C9B00D6ED10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE92EBDB2D5E9C9600D6ED10 /* Exceptions for "VideoToAudioConverter" folder in "VideoToAudioConverter" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE92EBC82D5E9C9500D6ED10 /* VideoToAudioConverter */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE92EBCB2D5E9C9500D6ED10 /* VideoToAudioConverter */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE92EBDB2D5E9C9600D6ED10 /* Exceptions for "VideoToAudioConverter" folder in "VideoToAudioConverter" target */,
-			);
-			path = VideoToAudioConverter;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE92EBC62D5E9C9500D6ED10 /* Frameworks */ = {
@@ -45,7 +40,7 @@
 		BE92EBC02D5E9C9500D6ED10 = {
 			isa = PBXGroup;
 			children = (
-				BE92EBCB2D5E9C9500D6ED10 /* VideoToAudioConverter */,
+				BE92EBEA2D5E9C9B00D6ED10 /* VideoToAudioConverter */,
 				BE92EBCA2D5E9C9500D6ED10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +51,20 @@
 				BE92EBC92D5E9C9500D6ED10 /* VideoToAudioConverter.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE92EBEA2D5E9C9B00D6ED10 /* VideoToAudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				BE92EBE12D5E9C9B00D6ED10 /* AppDelegate.swift */,
+				BE92EBE22D5E9C9B00D6ED10 /* Assets.xcassets */,
+				BE92EBE32D5E9C9B00D6ED10 /* Info.plist */,
+				BE92EBE52D5E9C9B00D6ED10 /* LaunchScreen.storyboard */,
+				BE92EBE72D5E9C9B00D6ED10 /* Main.storyboard */,
+				BE92EBE82D5E9C9B00D6ED10 /* SceneDelegate.swift */,
+				BE92EBE92D5E9C9B00D6ED10 /* ViewController.swift */,
+			);
+			path = VideoToAudioConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE92EBCB2D5E9C9500D6ED10 /* VideoToAudioConverter */,
 			);
 			name = VideoToAudioConverter;
 			packageProductDependencies = (
@@ -122,6 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE92EBEB2D5E9C9B00D6ED10 /* Assets.xcassets in Resources */,
+				BE92EBED2D5E9C9B00D6ED10 /* LaunchScreen.storyboard in Resources */,
+				BE92EBEE2D5E9C9B00D6ED10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +141,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE92EBEF2D5E9C9B00D6ED10 /* AppDelegate.swift in Sources */,
+				BE92EBF02D5E9C9B00D6ED10 /* SceneDelegate.swift in Sources */,
+				BE92EBF12D5E9C9B00D6ED10 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE92EBE52D5E9C9B00D6ED10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE92EBE42D5E9C9B00D6ED10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE92EBE72D5E9C9B00D6ED10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE92EBE62D5E9C9B00D6ED10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE92EBDD2D5E9C9600D6ED10 /* Debug */ = {
